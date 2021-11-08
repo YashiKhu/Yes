@@ -1,0 +1,19 @@
+import numpy as np 
+import pandas as pd
+
+# for visualizations
+import matplotlib.pyplot as plt
+import seaborn as sns
+plt.style.use('fivethirtyeight')
+
+
+# for interactive visualizations
+import plotly.offline as py
+from plotly.offline import init_notebook_mode, iplot
+import plotly.graph_objs as go
+init_notebook_mode(connected = True)
+from bubbly.bubbly import bubbleplot
+
+# for providing the path
+import os
+print(os.listdir("../input"))
